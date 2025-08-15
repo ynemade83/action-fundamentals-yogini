@@ -5,7 +5,7 @@ on:
 
 jobs:
   call_workflow:
-    uses: ./github/workflows/reusable-workflow.yml
+    uses: ./github/workflows/reusable-workflow.yml@main
     with:
       who-to-greet: Yogini
 
