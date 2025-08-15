@@ -1,6 +1,9 @@
-name: Init
+name: GitHub Actions Demo
 
-on: [create, workflow_dispatch]
+on:
+  push:
+    branches:
+      - main
 
 permissions: 
   issues: write
