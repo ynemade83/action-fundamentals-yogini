@@ -15,7 +15,7 @@ jobs:
     steps:
       - name: Event trigger
         run: |
-          echo "This event is triggered by ${{github.event_name}}
+          echo "This event is triggered by ${{github.event_name}}"
           echo "the name of branch is ${{github.ref}} and repo is ."
           
       - name: checkout
