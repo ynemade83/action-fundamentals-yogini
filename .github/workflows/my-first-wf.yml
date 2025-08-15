@@ -44,7 +44,7 @@ jobs:
     runs-on: ubuntu-latest
     needs: Test
     environment:
-      name: Production
+      name: prod
       url: https://writeabout.net
     if: github.event.inputs.environment == 'Production'
     steps:
